@@ -1,2 +1,2 @@
 # alfatoxin.github.io NEIS0736
-![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+![Philadelphia's Magic Gardens. This place was so cool!](https://miro.medium.com/max/1125/1*dDNpLKu_oTLzStsDTnkJ-g.png "Philadelphia's Magic Gardens")
