@@ -7,3 +7,7 @@
 
 **2014 - present**
 - Mr. Sakarin Kaewsathitwong joined software developer at Tabsoft company limited in 2014.
+
+**2010 - 2014**
+- Rajamangala University of Technology Rattanakosin Borpitpimuk Chakrawad.
+Study in Business Administration, Major in Business Information Technology.
