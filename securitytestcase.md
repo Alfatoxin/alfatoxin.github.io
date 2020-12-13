@@ -1,7 +1,14 @@
 # Security Test Case
 
-อนุญาตให้สามารถดาวน์โหลดไฟล์ได้เฉพาะนามสกุล JPG และ PNG เท่านั้น
+## File Download Requirements
 
-|     Test case objective     | Preconditions                                    | Input data     | Expected       | Postconditions | Status |
-|:---------------------------:|--------------------------------------------------|----------------|----------------|----------------|--------|
-| ไฟล์ที่พร้อมดาวน์โหลด นามสกุล jpg | รูป [filename].jpg อยู่บน Web Server พร้อมให้ดาวน์โหลด | image link URL | [fliename].jpg | [fliename].jpg | Pass   |
+#### file be able download only for extension jpg and png
+
+
+| Test case objective | Preconditions                                              | Input data     | Expected       | Postconditions | Status |
+|:-------------------:|------------------------------------------------------------|----------------|----------------|----------------|--------|
+|  file available jpg | image file [filename].jpg on Web Server available download | image link URL | [fliename].jpg | [fliename].jpg | Pass   |
+
+##### Team Author
+* Sakarin Kaewsathitwong
+* Vatcharin Kongsakul
