@@ -1,6 +1,4 @@
-# Security Test Case
-
-## File Download Requirements
+# File Download Test Case
 
 #### file be able download only for extension jpg and png
 
