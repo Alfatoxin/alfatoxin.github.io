@@ -1,0 +1,1 @@
+# CryptographyHelper.EncryptString() Method
