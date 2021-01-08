@@ -31,6 +31,8 @@
     ![](../../assets/img/Csharp09.png)
 1. Run programe และทดสอบการทำงานโดยใส่ Plain text และ Salt
 ![](../../assets/img/Csharp10.png)
+1. ซึ่งการ Encrypt โดยใช้ Plain text เดิม Salt เดิม ในแต่ละครั้งจะให้ Encrypted Result ที่แตกต่างกัน
+![](../../assets/img/Csharp11.png)
 
 ### Method EncryptString ใช้สำหรับการ Encrypt
 ### Method DecryptString ใช้สำหรับการ Decrypt
