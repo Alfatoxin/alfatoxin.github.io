@@ -1,6 +1,10 @@
-# Method CryptographyHelper.EncryptString()
+# เข้ารหัสและถอดรหัสด้วย CryptographyHelper.EncryptString() ในภาษา C#
 
 ### เมธอด CryptographyHelper.EncryptString() นี้เป็น เมธอดสำหรับการ **Encrypt** โดยพัฒนาด้วยภาษา **C#**
+<br>
+
+![](../../assets/img/Csharp00.png)
+<br>
 <br>
 ในที่นี้เราจะทดสอบโดยการใช้ ภาษา C# .NET 5.0
 
