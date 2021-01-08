@@ -6,7 +6,7 @@
 
 1. ขั้นแรกทำการสร้าง **Project** ขึ้นมาโดยเลือก **WPF APP .NET Core**
 ![](../../assets/img/Csharp01.png)
-1. เมื่อสร้าง Project เสร็จให้เราติดตั้ง Package สำหรับการเรียกใช้ library โดยเข้าเมนู **Tool** &#8594; **NuGet Package Manager** &#8594; **Manage NuGet Packages for Solution...**
+1. เมื่อสร้าง Project เสร็จให้เราติดตั้ง Package สำหรับการเรียกใช้ Library โดยเข้าเมนู **Tool** &#8594; **NuGet Package Manager** &#8594; **Manage NuGet Packages for Solution...**
 ![](../../assets/img/Csharp04.png)
 1. ค้นหา **Package** ชื่อว่า **DataJuggler.Core.Cryptography** และติดตั้ง
 ![](../../assets/img/Csharp05.png)
@@ -29,7 +29,7 @@
     }
     ```
     ![](../../assets/img/Csharp09.png)
-1. **Run programe** และทดสอบการทำงานโดยใส่ **Plain text** และ **Salt**
+1. **Run program** และทดสอบการทำงานโดยใส่ **Plain text** และ **Salt**
 ![](../../assets/img/Csharp10.png)
 1. ซึ่งการ **Encrypt** โดยใช้ **Plain text** เดิม **Salt** เดิม ในแต่ละครั้งจะให้ **Encrypted Result** ที่แตกต่างกัน
 ![](../../assets/img/Csharp11.png)
