@@ -73,3 +73,6 @@
     ![](../../assets/img/Python09.png)
 1. ผลลัพธ์ที่ได้ไม่น่าเชื่อว่าจะมี imageA อยู่ในนั้น!!
     ![](../../assets/img/Python10.png)
+<br>
+<br>
+created by Sakarin Kaewsathitwong
