@@ -10,7 +10,7 @@
 ![](../../assets/img/Csharp04.png)
 1. ค้นหา **Package** ชื่อว่า **DataJuggler.Core.Cryptography** และติดตั้ง
 ![](../../assets/img/Csharp05.png)
-1. จากนั้นสร้าง **Textbox** สำหรับการทดสอบโดยจากตัวอย่างจะทำการ **Encrypt** และ **Decrypt** โดยใส่ **Salt** เข้าไปด้วย (Salt ควรเป็นค่าสุ่มเพื่อป้องกันการ Crack ข้อความ)
+1. จากนั้นสร้าง **Textbox** สำหรับการทดสอบโดยจากตัวอย่างจะทำการ **Encrypt** และ **Decrypt** โดยใส่ **Salt** เข้าไปด้วย (Salt ควรเป็นค่าสุ่มเพื่อป้องกันการ Crack ข้อความ อ่านเพิ่มเติมได้ **[ที่นี่...](https://inuax.github.io/code4sec/python_crypt_mksalt))**
 ![](../../assets/img/Csharp08.png)
 1. เพิ่มการเรียกใช้ **Package** และ เขียนโค้ดใน **Event** ของ **Button** ทั้งสองปุ่ม
     ```csharp
