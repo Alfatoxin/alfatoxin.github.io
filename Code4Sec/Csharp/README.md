@@ -4,15 +4,15 @@
 <br>
 ในที่นี้เราจะทดสอบโดยการใช้ ภาษา C# .NET 5.0
 
-1. ขั้นแรกทำการสร้าง Project ขึ้นมาโดยเลือก **WPF APP .NET Core**
+1. ขั้นแรกทำการสร้าง **Project** ขึ้นมาโดยเลือก **WPF APP .NET Core**
 ![](../../assets/img/Csharp01.png)
-1. เมื่อสร้าง Project เสร็จให้เราติดตั้ง Package สำหรับการเรียกใช้ library โดยเข้าเมนู Tool &#8594; NuGet Package Manager &#8594; Manage NuGet Packages for Solution...
+1. เมื่อสร้าง Project เสร็จให้เราติดตั้ง Package สำหรับการเรียกใช้ library โดยเข้าเมนู **Tool** &#8594; **NuGet Package Manager** &#8594; **Manage NuGet Packages for Solution...**
 ![](../../assets/img/Csharp04.png)
-1. ค้นหา Package ชื่อว่า **DataJuggler.Core.Cryptography** และติดตั้ง
+1. ค้นหา **Package** ชื่อว่า **DataJuggler.Core.Cryptography** และติดตั้ง
 ![](../../assets/img/Csharp05.png)
-1. จากนั้นสร้าง Textbox สำหรับการทดสอบโดยจากตัวอย่างจะทำการ Encrypt และ Decrypt โดยใส่ Salt เข้าไปด้วย (Salt ควรเป็นค่าสุ่มเพื่อป้องกันการ Crack ข้อความ)
+1. จากนั้นสร้าง **Textbox** สำหรับการทดสอบโดยจากตัวอย่างจะทำการ **Encrypt** และ **Decrypt** โดยใส่ **Salt** เข้าไปด้วย (Salt ควรเป็นค่าสุ่มเพื่อป้องกันการ Crack ข้อความ)
 ![](../../assets/img/Csharp08.png)
-1. เพิ่มการเรียกใช้ Package และ เขียนโค้ดใน Event ของ button ทั้งสองปุ่ม
+1. เพิ่มการเรียกใช้ **Package** และ เขียนโค้ดใน **Event** ของ **Button** ทั้งสองปุ่ม
     ```csharp
     using DataJuggler.Net5.Cryptography;
     ```
@@ -29,13 +29,13 @@
     }
     ```
     ![](../../assets/img/Csharp09.png)
-1. Run programe และทดสอบการทำงานโดยใส่ Plain text และ Salt
+1. **Run programe** และทดสอบการทำงานโดยใส่ **Plain text** และ **Salt**
 ![](../../assets/img/Csharp10.png)
-1. ซึ่งการ Encrypt โดยใช้ Plain text เดิม Salt เดิม ในแต่ละครั้งจะให้ Encrypted Result ที่แตกต่างกัน
+1. ซึ่งการ **Encrypt** โดยใช้ **Plain text** เดิม **Salt** เดิม ในแต่ละครั้งจะให้ **Encrypted Result** ที่แตกต่างกัน
 ![](../../assets/img/Csharp11.png)
 
-### Method EncryptString ใช้สำหรับการ Encrypt
-### Method DecryptString ใช้สำหรับการ Decrypt
+### Method **EncryptString** ใช้สำหรับการ **Encrypt**
+### Method **DecryptString** ใช้สำหรับการ **Decrypt**
 <br>
 <br>
 created by Sakarin Kaewsathitwong
