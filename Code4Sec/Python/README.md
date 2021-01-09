@@ -8,7 +8,7 @@
 <br>
 โดยเราจะใช้ภาษา **Python** ทดสอบ
 1. โหลดไฟล์ **[Steganography.py](/Steganography.py)**
-1. ทำการติดตั้ง Library ที่ว่า **Pillow**
+1. ทำการติดตั้ง Library ที่ชื่อว่า **Pillow**
     ```shell
     > pip install pillow
     ```
