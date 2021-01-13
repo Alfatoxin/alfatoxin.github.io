@@ -38,6 +38,12 @@ SELECT * FROM tableuser WHERE tbu_username = 'user1' AND tbu_password = PASSWORD
 
 ### หลายๆ คนคงจะตั้งคำถามว่าการ Hash ด้วย Function PASSWORD นั้นมันดีที่สุดหรือไม่ก็ตอบในที่นี้ได้เลยว่า มันไม่ใช่วิธีการที่ดีที่สุดแต่อย่างน้อยการ Hash ก็จะช่วยปิดบังให้คนที่ประสงค์ต่อข้อมูลทำงานได้ยากมากขึ้น เพราะอะไรรู้ไหมครับ ก็เพราะว่าทำยังไงก็หนีไม่พ้นการ Brute force อยู่ดี
 
+#### Knowledge base อื่นๆ ที่น่าสนใจ
+* **[ซ่อนภาพที่คุณไม่อยากให้ใครเห็นง่ายๆ ด้วยภาษา Python](../Python/)**
+* **[ข้ารหัสและถอดรหัสด้วย CryptographyHelper.EncryptString() ในภาษา C#](../Csharp/)**
+* **[ป้องกันรหัสผ่านรั่วไหลบน MySQL ด้วย Function PASSWORD](../MySQL/)**
+* **[Function sha1 บน Node.JS](../JavaScript/)**
+* **[วิธีการ Hash บนภาษา Java ด้วย อัลกอริทึม SHA-256](../Java/)**
 <br>
 <br>
 created by Sakarin Kaewsathitwong

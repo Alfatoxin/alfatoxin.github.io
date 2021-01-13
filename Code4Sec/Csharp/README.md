@@ -40,6 +40,14 @@
 
 ### Method **EncryptString** ใช้สำหรับการ **Encrypt**
 ### Method **DecryptString** ใช้สำหรับการ **Decrypt**
+
+#### Knowledge base อื่นๆ ที่น่าสนใจ
+* **[ซ่อนภาพที่คุณไม่อยากให้ใครเห็นง่ายๆ ด้วยภาษา Python](../Python/)**
+* **[ข้ารหัสและถอดรหัสด้วย CryptographyHelper.EncryptString() ในภาษา C#](../Csharp/)**
+* **[ป้องกันรหัสผ่านรั่วไหลบน MySQL ด้วย Function PASSWORD](../MySQL/)**
+* **[Function sha1 บน Node.JS](../JavaScript/)**
+* **[วิธีการ Hash บนภาษา Java ด้วย อัลกอริทึม SHA-256](../Java/)**
+<br>
 <br>
 <br>
 created by Sakarin Kaewsathitwong

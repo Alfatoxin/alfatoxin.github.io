@@ -1,32 +1,37 @@
-# Function sha1 บน Node.JS 
+# วิธีการ Hash บนภาษา Java ด้วย อัลกอริทึม SHA-256
 
-### **Hash** เป็น **One-way function** ซึ่งไม่สามารถทำการถอดรหัสกลับมาเป็นข้อมูลเดิมได้ เว้นแต่มีการเก็บข้อมูลเป็น Dictionary มากพอซึ่งใน Dictionary จะประกอบไปด้วย **ข้อความ** และค่า **Hash** ซึ่งจะเอาค่า **Hash** มาเทียบเพื่อหาข้อความ แต่อย่าลืมไปข้อความ 2 ข้อความที่ทำการ Hash อาจจะได้ค่าเดียวกันก็เป็นได้ ซึ่งการใช้ Function **sha1** ก็คือการ **Hash** เช่นกัน
+### **Hash** เป็น **One-way function** ซึ่งไม่สามารถทำการถอดรหัสกลับมาเป็นข้อมูลเดิมได้ เว้นแต่มีการเก็บข้อมูลเป็น Dictionary มากพอซึ่งใน Dictionary จะประกอบไปด้วย **ข้อความ** และค่า **Hash** ซึ่งจะเอาค่า **Hash** มาเทียบเพื่อหาข้อความ แต่อย่าลืมไปข้อความ 2 ข้อความที่ทำการ Hash อาจจะได้ค่าเดียวกันก็เป็นได้ ซึ่งการใช้ Function **sha256** ก็คือการ **Hash** เช่นกัน
 <br>
 
-![](../../assets/img/JavaScript00.png)
+![](../../assets/img/Java00.png)
 <br>
 <br>
 
 การที่จะป้องข้อมูลบางอย่างหลุดออกไปนั้นทำได้หลากหลายวิธี ถึงแม้ว่าข้อมูลจะหลุดออกไปแต่ก็ไม่สามารถนำไปใช้งานได้หรือไม่สามารถเห็นข้อมูลจริงๆ ได้ หนึ่งในวิธีนั้นก็หนีไม่พ้น Hash Function ซึ่งการ Hash ก็มีอัลกอริทึมในการทำที่แตกต่างกันไปไม่ว่าจะเป็น **md5**, **sha1**, **sha256**
 
 ### เริ่มกันเลย
-1. ก่อนอื่นต้องติดตั้ง Package เสียก่อน
-    ```shell
-    > npm install sha1
+1. เตรียม Package ที่จำเป็นต้องใช้
+    ```java
+    import java.nio.charset.StandardCharsets;
+    import java.security.MessageDigest;
+    import java.security.NoSuchAlgorithmException;
+    import java.util.Base64;
     ```
-    ![](../../assets/img/JavaScript01.png)
-1. เมื่อติดตั้งเสร็จก็เริ่มทดสอบด้วยการเรียกใช้ sha(1)
-    ```js
-    let sha1 = require("sha1")
-    let strdata = sha1("Code4Sec")
-
-    console.log("strdata: " + strdata)
+1. ตัวอย่างการเรียกใช้งาน 
+    ```java
+    public static void main(String[] args) throws NoSuchAlgorithmException {
+        String text = "Sakarin Kaewsathitwong";
+        MessageDigest digest = MessageDigest.getInstance("SHA-256");
+        byte[] hash = digest.digest(text.getBytes(StandardCharsets.UTF_8));
+        String encoded = Base64.getEncoder().encodeToString(hash);
+        System.out.println("Encoded is " + encoded);
+    }
     ```
     ผลลัพธ์ที่ได้
     ```
-    strdata: 79d811cba5ae4697d23f7dab1ee5930f10da5f3d
+    Encoded is 36XdouX0jUOVfMNY2eTwgk1mqXX3egMog5+zhqjSIsI=
     ```
-    ![](../../assets/img/JavaScript02.png)
+    ![](../../assets/img/Java01.png)
 <br>
 <br>
 
