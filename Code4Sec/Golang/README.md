@@ -10,32 +10,25 @@
 การที่จะป้องข้อมูลบางอย่างหลุดออกไปนั้นทำได้หลากหลายวิธี ถึงแม้ว่าข้อมูลจะหลุดออกไปแต่ก็ไม่สามารถนำไปใช้งานได้หรือไม่สามารถเห็นข้อมูลจริงๆ ได้ หนึ่งในวิธีนั้นก็หนีไม่พ้น Hash Function ซึ่งการ Hash ก็มีอัลกอริทึมในการทำที่แตกต่างกันไปไม่ว่าจะเป็น **md5**, **sha1**, **sha256**
 
 ### เริ่มกันเลย
-1. เตรียม Package ที่จำเป็นต้องใช้
-    ```java
-    import java.nio.charset.StandardCharsets;
-    import java.security.MessageDigest;
-    import java.security.NoSuchAlgorithmException;
-    import java.util.Base64;
-    ```
-1. ตัวอย่างการเรียกใช้งาน 
-    ```go
-    package main
 
-    import (
-        "crypto/sha256"
-        "fmt"
-    )
+```go
+package main
 
-    func main() {
-        data := []byte("Sakarin Kaewsathitwong")
-        hash := sha256.Sum256(data)
-        fmt.Printf("Hash is %x", hash[:])
-    }
-    ```
-    ผลลัพธ์ที่ได้
-    ```
-    Hash is dfa5dda2e5f48d43957cc358d9e4f0824d66a975f77a0328839fb386a8d222c2
-    ```
+import (
+    "crypto/sha256"
+    "fmt"
+)
+
+func main() {
+    data := []byte("Sakarin Kaewsathitwong")
+    hash := sha256.Sum256(data)
+    fmt.Printf("Hash is %x", hash[:])
+}
+```
+ผลลัพธ์ที่ได้
+```
+Hash is dfa5dda2e5f48d43957cc358d9e4f0824d66a975f77a0328839fb386a8d222c2
+```
     ![](../../assets/img/Golang01.png)
 <br>
 <br>
