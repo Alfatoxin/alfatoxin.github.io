@@ -1,9 +1,9 @@
-# วิธีการ Hash บนภาษา Java ด้วย อัลกอริทึม SHA-256
+# วิธีการ Hash บนภาษา Golang ด้วย อัลกอริทึม SHA-256
 
 ### **Hash** เป็น **One-way function** ซึ่งไม่สามารถทำให้กลับมาเป็นข้อมูลเดิมได้ เว้นแต่มีการเก็บข้อมูลเป็น Dictionary มากพอซึ่งใน Dictionary จะประกอบไปด้วย **ข้อความ** และค่า **Hash** ซึ่งจะเอาค่า **Hash** มาเทียบเพื่อหาข้อความ แต่อย่าลืมไปข้อความ 2 ข้อความที่ทำการ Hash อาจจะได้ค่าเดียวกันก็เป็นได้ ซึ่งการใช้ Function **sha256** ก็คือการ **Hash** เช่นกัน
 <br>
 
-![](../../assets/img/Java00.png) 
+![](../../assets/img/Golang00.png) 
 <br>
 <br>
 
@@ -18,20 +18,25 @@
     import java.util.Base64;
     ```
 1. ตัวอย่างการเรียกใช้งาน 
-    ```java
-    public static void main(String[] args) throws NoSuchAlgorithmException {
-        String text = "Sakarin Kaewsathitwong";
-        MessageDigest digest = MessageDigest.getInstance("SHA-256");
-        byte[] hash = digest.digest(text.getBytes(StandardCharsets.UTF_8));
-        String encoded = Base64.getEncoder().encodeToString(hash);
-        System.out.println("Encoded is " + encoded);
+    ```go
+    package main
+
+    import (
+        "crypto/sha256"
+        "fmt"
+    )
+
+    func main() {
+        data := []byte("Sakarin Kaewsathitwong")
+        hash := sha256.Sum256(data)
+        fmt.Printf("Hash is %x", hash[:])
     }
     ```
     ผลลัพธ์ที่ได้
     ```
-    Encoded is 36XdouX0jUOVfMNY2eTwgk1mqXX3egMog5+zhqjSIsI=
+    Hash is dfa5dda2e5f48d43957cc358d9e4f0824d66a975f77a0328839fb386a8d222c2
     ```
-    ![](../../assets/img/Java01.png)
+    ![](../../assets/img/Golang01.png)
 <br>
 <br>
 

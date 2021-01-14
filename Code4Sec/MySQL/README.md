@@ -44,6 +44,7 @@ SELECT * FROM tableuser WHERE tbu_username = 'user1' AND tbu_password = PASSWORD
 * **[ป้องกันรหัสผ่านรั่วไหลบน MySQL ด้วย Function PASSWORD](../MySQL/)**
 * **[Function sha1 บน Node.JS](../JavaScript/)**
 * **[วิธีการ Hash บนภาษา Java ด้วย อัลกอริทึม SHA-256](../Java/)**
+* **[วิธีการ Hash บนภาษา Golang ด้วย อัลกอริทึม SHA-256](../Golang/)**
 <br>
 <br>
 

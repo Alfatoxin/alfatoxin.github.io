@@ -8,5 +8,5 @@ import (
 func main() {
 	data := []byte("Sakarin Kaewsathitwong")
 	hash := sha256.Sum256(data)
-	fmt.Printf("%x", hash[:])
+	fmt.Printf("Hash is %x", hash[:])
 }
