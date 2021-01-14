@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"crypto/sha256"
+	"fmt"
+)
 
 func main() {
-    fmt.Println("Hello, World!")
+	data := []byte("Sakarin Kaewsathitwong")
+	hash := sha256.Sum256(data)
+	fmt.Printf("%x", hash[:])
 }
