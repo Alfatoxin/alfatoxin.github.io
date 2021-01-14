@@ -29,7 +29,7 @@ func main() {
 ```
 Hash is dfa5dda2e5f48d43957cc358d9e4f0824d66a975f77a0328839fb386a8d222c2
 ```
-    ![](../../assets/img/Golang01.png)
+![](../../assets/img/Golang01.png)
 <br>
 <br>
 
