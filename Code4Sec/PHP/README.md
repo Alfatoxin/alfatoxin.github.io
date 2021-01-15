@@ -54,6 +54,8 @@ empty --> bool(true) , isset --> bool(false) , is_null --> bool(true)
 ### เพื่อให้เห็นข้อมูลมากขึ้นก็ได้มีตารางเปรียบเทียบข้อมูลเพิ่มเติม
 ![](../../assets/img/PHP01.png)
 
+## สรุปคือ 3 Function empty(), isset() และ isnull() นั้นควรเลือกให้เหมาะสมกับงานที่ใช้
+
 Ref. **[www.aosoft.co.th](https://www.aosoft.co.th/article/207/[PHP]-%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%9A-isset-vs-empty-vs-is_null.html)**
 
 #### Knowledge base อื่นๆ ที่น่าสนใจ
