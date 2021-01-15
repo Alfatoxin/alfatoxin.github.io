@@ -43,6 +43,7 @@ Hash is dfa5dda2e5f48d43957cc358d9e4f0824d66a975f77a0328839fb386a8d222c2
 * **[Function sha1 บน Node.JS](../JavaScript/)**
 * **[วิธีการ Hash บนภาษา Java ด้วย อัลกอริทึม SHA-256](../Java/)**
 * **[วิธีการ Hash บนภาษา Golang ด้วย อัลกอริทึม SHA-256](../Golang/)**
+* **[Function empty คืออะไรในภาษา PHP](../PHP/)**
 <br>
 <br>
 
